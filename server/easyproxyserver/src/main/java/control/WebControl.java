@@ -9,9 +9,9 @@ import io.netty.handler.codec.bytes.ByteArrayDecoder;
 import io.netty.handler.codec.bytes.ByteArrayEncoder;
 
 /**
- * @author nobugboy
- * @description
- * @create 2021-07-01 10:33
+ * author nobugboy
+ * description
+ * create 2021-07-01 10:33
  **/
 public class WebControl {
 

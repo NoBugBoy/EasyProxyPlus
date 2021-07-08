@@ -5,9 +5,9 @@ import io.netty.channel.Channel;
 import java.io.Serializable;
 
 /**
- * @author yujian
- * @description
- * @create 2021-07-01 10:25
+ * author yujian
+ * description
+ * create 2021-07-01 10:25
  **/
 public class GoClientTable implements Serializable {
     /**

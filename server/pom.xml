@@ -12,15 +12,14 @@
         </developer>
     </developers>
     <modules>
-        <module>easyproxyclient</module>
         <module>common</module>
         <module>easyproxyserver</module>
     </modules>
     <groupId>com.github.nobugboy</groupId>
-    <artifactId>EasyProxyClient</artifactId>
+    <artifactId>EasyProxyPlusServer</artifactId>
     <version>1.0</version>
-    <name>EasyProxy</name>
-    <description>easy proxy</description>
+    <name>EasyProxyPlus</name>
+    <description>内网穿透</description>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -29,9 +28,9 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:NoBugBoy/EasyProxy.git</connection>
-        <developerConnection>scm:git:git@github.com:NoBugBoy/EasyProxy.git</developerConnection>
-        <url>git@github.com:NoBugBoy/EasyProxy.git</url>
+        <connection>scm:git:git@github.com:NoBugBoy/EasyProxyPlus.git</connection>
+        <developerConnection>scm:git:git@github.com:NoBugBoy/EasyProxyPlus.git</developerConnection>
+        <url>git@github.com:NoBugBoy/EasyProxyPlus.git</url>
     </scm>
     <profiles>
         <profile>
@@ -53,14 +52,6 @@
     </profiles>
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-shade-plugin</artifactId>
@@ -75,7 +66,7 @@
                                 <transformers>
                                     <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                         <!--打包需要修改此处-->
-                                        <mainClass>StartClient</mainClass>
+                                        <mainClass>StartServer</mainClass>
                                     </transformer>
                                 </transformers>
                             </configuration>

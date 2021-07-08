@@ -1,8 +1,7 @@
 core/ServerInitializer.class
-handler/ServerHandler$1.class
 core/ServerThreadFactory.class
 core/NettyServer.class
+core/Keepalive.class
 StartServer.class
 handler/ServerHandler.class
 handler/ProxyServerHandler.class
-core/KeepAlive.class

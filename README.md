@@ -1,6 +1,8 @@
 #  EasyProxyPlus内网穿透（支持多客户端多端口）
 
-哔哩哔哩视频讲解: https://www.bilibili.com/video/BV1iM4y1M7kY/
+# 使用过程出现问题，可以提一个issues描述一下，看到后会更正。
+
+### 哔哩哔哩视频讲解: https://www.bilibili.com/video/BV1iM4y1M7kY/
 
 >  EasyProxyPlus由三端组成，Web端使用Vue+Antd编写,通过调用Server的Api,对Nat端口（代理端口）进行配置，关闭，查看连接状态、字节流量等信息,Server端使用Java+netty编写，用来与client通信，发送心跳，Client端使用Golang编写，用来穿透目标服务等
 
